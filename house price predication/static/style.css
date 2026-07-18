@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(135deg, #f5f7fa, #e4ecfb);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Image styling */
+.house-image {
+    width: 100%;
+    max-width: 520px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease;
+}
+
+/* Hover effect */
+.house-image:hover {
+    transform: scale(1.07);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #198754;
+}
+
+/* Paragraph */
+p {
+    font-size: 18px;
+    color: #444;
+}
+
+/* Button styling */
+.btn-success {
+    padding: 12px 35px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+.btn-success:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(25, 135, 84, 0.3);
+}
